@@ -8,6 +8,7 @@ function GifSearch({onSearch}) {
     function handleSubmit(e) {
         e.preventDefault()
         onSearch(input)
+        setInput('')
     }
 
     // function focusInput() {
